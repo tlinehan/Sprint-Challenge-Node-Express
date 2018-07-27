@@ -1,0 +1,28 @@
+{
+  "name": "sprint-challenge-node-express",
+  "version": "1.0.0",
+  "description": "Sprint Challenge Node-Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlinehan/Sprint-Challenge-Node-Express.git"
+  },
+  "keywords": [],
+  "author": "tristan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LambdaSchool/Sprint-Challenge-Node-Express/issues"
+  },
+  "homepage": "https://github.com/LambdaSchool/Sprint-Challenge-Node-Express/blob/master/README.md",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "knex": "^0.15.2",
+    "sqlite3": "^4.0.2"
+  }
+}
