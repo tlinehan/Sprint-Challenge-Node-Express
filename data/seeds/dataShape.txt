@@ -1,0 +1,53 @@
+////PROJECTS DATA SHAPE
+[
+    {
+        id: 1,
+        name: "Complete Challenge",
+        description: "Build and Awesome API!",
+        completed: false
+    }
+]
+
+
+////ACTIONS DATA SHAPE
+[
+    {
+        id: 1,
+        project_id: 1,
+        description: "Fork and Clone",
+        notes: "Repo URL: ",
+        completed: false
+    }
+]
+
+
+////PROJECTS BY ID DATA SHAPE
+{
+    id: 1,
+    name: "Complete Node.js and Express Challenge",
+    description: "Build and Awesome API Using Node.js and Express to Manage Projects and Actions GTD Style!",
+    completed: false,
+    actions: [
+        {
+            id: 1,
+            project_id: 1,
+            description: "Fork and Clone Repository",
+            notes: "Repo URL: https://github.com/LambdaSchool/Sprint-Challenge-Node-Express",
+            completed: false
+        },
+        {
+            id: 2,
+            project_id: 1,
+            description: "Install Dependencies",
+            notes: "Remember to cd into the folder where the Project was cloned",
+            completed: false
+        },
+        {
+            id: 3,
+            project_id: 1,
+            description: "Design and Build API Endpoints",
+            notes: "This is where the magic happens!",
+            completed: false
+        }
+    ]
+}
